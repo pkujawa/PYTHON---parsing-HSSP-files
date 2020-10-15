@@ -1,0 +1,429 @@
+HSSP       HOMOLOGY DERIVED SECONDARY STRUCTURE OF PROTEINS , VERSION 3.0.10 2018
+PDBID      1CRN
+THRESHOLD  according to: t(L)=(290.15 * L ** -0.562) + 5
+REFERENCE  Sander C., Schneider R. : Database of homology-derived protein structures. Proteins, 9:56-68 (1991).
+CONTACT    Maintained at http://www.cmbi.umcn.nl/ 
+DATE       file generated on 2019-09-02
+HEADER     PLANT PROTEIN                           30-APR-81   1CRN
+COMPND     MOL_ID: 1; MOLECULE: CRAMBIN; CHAIN: A; ENGINEERED: YES
+SOURCE     MOL_ID: 1; ORGANISM_SCIENTIFIC: CRAMBE HISPANICA SUBSP. ABYSSINICA; OR
+AUTHOR     W.A.HENDRICKSON,M.M.TEETER
+DBREF      1CRN A    1    46  UNP    P01542   CRAM_CRAAB       1     46
+SEQLENGTH    46
+NCHAIN        1 chain(s) in 1CRN data set
+NALIGN      176
+NOTATION : ID: EMBL/SWISSPROT identifier of the aligned (homologous) protein
+NOTATION : STRID: if the 3-D structure of the aligned protein is known, then STRID is the Protein Data Bank identifier as taken
+NOTATION : from the database reference or DR-line of the EMBL/SWISSPROT entry
+NOTATION : %IDE: percentage of residue identity of the alignment
+NOTATION : %SIM (%WSIM):  (weighted) similarity of the alignment
+NOTATION : IFIR/ILAS: first and last residue of the alignment in the test sequence
+NOTATION : JFIR/JLAS: first and last residue of the alignment in the alignend protein
+NOTATION : LALI: length of the alignment excluding insertions and deletions
+NOTATION : NGAP: number of insertions and deletions in the alignment
+NOTATION : LGAP: total length of all insertions and deletions
+NOTATION : LSEQ2: length of the entire sequence of the aligned protein
+NOTATION : ACCNUM: SwissProt accession number
+NOTATION : PROTEIN: one-line description of aligned protein
+NOTATION : SeqNo,PDBNo,AA,STRUCTURE,BP1,BP2,ACC: sequential and PDB residue numbers, amino acid (lower case = Cys), secondary
+NOTATION : structure, bridge partners, solvent exposure as in DSSP (Kabsch and Sander, Biopolymers 22, 2577-2637(1983)
+NOTATION : VAR: sequence variability on a scale of 0-100 as derived from the NALIGN alignments
+NOTATION : pair of lower case characters (AvaK) in the alignend sequence bracket a point of insertion in this sequence
+NOTATION : dots (....) in the alignend sequence indicate points of deletion in this sequence
+NOTATION : SEQUENCE PROFILE: relative frequency of an amino acid type at each position. Asx and Glx are in their
+NOTATION : acid/amide form in proportion to their database frequencies
+NOTATION : NOCC: number of aligned sequences spanning this position (including the test sequence)
+NOTATION : NDEL: number of sequences with a deletion in the test protein at this position
+NOTATION : NINS: number of sequences with an insertion in the test protein at this position
+NOTATION : ENTROPY: entropy measure of sequence variability at this position
+NOTATION : RELENT: relative entropy, i.e.  entropy normalized to the range 0-100
+NOTATION : WEIGHT: conservation weight
+
+## PROTEINS : identifier and alignment statistics
+  NR.    ID         STRID   %IDE %WSIM IFIR ILAS JFIR JLAS LALI NGAP LGAP LSEQ2 ACCNUM     PROTEIN
+    1 : CRAM_CRAAB          0.98  1.00    1   46    1   46   46    0    0   46  P01542     Crambin OS=Crambe hispanica subsp. abyssinica OX=3721 GN=THI2 PE=1 SV=2
+    2 : A0A1J3DQZ0_N        0.56  0.82    2   46   38   82   45    0    0  145  A0A1J3DQZ0 Thionin (Fragment) OS=Noccaea caerulescens OX=107243 GN=GA_TR11092_c0_g1_i1_g.35804 PE=4 SV=1
+    3 : A0A1J3FWR2_N        0.56  0.82    2   46   43   87   45    0    0  150  A0A1J3FWR2 Thionin (Fragment) OS=Noccaea caerulescens OX=107243 GN=LC_TR8862_c0_g1_i1_g.30998 PE=4 SV=1
+	    4 : A0A1J3H3C1_N        0.56  0.82    2   46   43   87   45    0    0  150  A0A1J3H3C1 Thionin (Fragment) OS=Noccaea caerulescens OX=107243 GN=LE_TR231_c0_g1_i1_g.499 PE=4 SV=1
+	    5 : Q43227_TULGE        0.56  0.78    2   46   14   58   45    0    0  112  Q43227     Thionin class 1 (Fragment) OS=Tulipa gesneriana OX=13306 GN=Thi1-4 PE=2 SV=1
+    6 : R0GYM0_9BRAS        0.55  0.76    2   43  108  149   42    0    0  215  R0GYM0     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10005712mg PE=4 SV=1
+    7 : Q8LT03_AVESA        0.53  0.76    2   46   30   74   45    0    0  137  Q8LT03     Leaf thionin Asthi1 OS=Avena sativa OX=4498 GN=Asthi1 PE=2 SV=1
+    8 : THN_DENCL           0.53  0.84    2   44    2   44   43    0    0   46  P01541     Denclatoxin-B OS=Dendrophthora clavata OX=3965 PE=1 SV=1
+    9 : Q8LT01_AVESA        0.51  0.64    2   46   30   74   45    0    0  137  Q8LT01     Leaf thionin Asthi3 OS=Avena sativa OX=4498 GN=Asthi3 PE=2 SV=1
+   10 : Q8LT02_AVESA        0.51  0.71    2   46   30   74   45    0    0  137  Q8LT02     Leaf thionin Asthi2 OS=Avena sativa OX=4498 GN=Asthi2 PE=2 SV=1
+   11 : R0I5Q0_9BRAS        0.51  0.78    2   46   26   69   45    1    1  133  R0I5Q0     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10014899mg PE=4 SV=1
+   12 : Q41609_TULGE        0.50  0.70    2   44   20   63   44    1    1  124  Q41609     Thionin class 4 OS=Tulipa gesneriana OX=13306 GN=Thi4-1 PE=2 SV=1
+   13 : R0H6L0_9BRAS        0.50  0.72    2   46   26   71   46    1    1  135  R0H6L0     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10018220mg PE=4 SV=1
+   14 : THN_PYRPU           0.50  0.74    2   46    2   47   46    1    1   47  P07504     Thionin OS=Pyrularia pubera OX=3960 GN=THI1 PE=1 SV=1
+   15 : A0A087HJG3_A        0.49  0.79    3   45   16   58   43    0    0  122  A0A087HJG3 Uncharacterized protein OS=Arabis alpina OX=50452 GN=AALP_AA2G233200 PE=4 SV=1
+   16 : A0A287T490_H        0.49  0.76    2   46   45   89   45    0    0  152  A0A287T490 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   17 : A0A3L6Q0Z4_P        0.49  0.73    2   46   27   70   45    1    1  135  A0A3L6Q0Z4 Uncharacterized protein OS=Panicum miliaceum OX=4540 GN=C2845_PM16G08330 PE=4 SV=1
+   18 : A0A4U6U3L4_S        0.49  0.68    2   42   35   75   41    0    0  142  A0A4U6U3L4 Uncharacterized protein OS=Setaria viridis OX=4556 GN=SEVIR_6G140500v2 PE=4 SV=1
+   19 : Q8LSZ9_AVESA        0.49  0.76    2   46   30   73   45    1    1  136  Q8LSZ9     Thionin Asthi5 OS=Avena sativa OX=4498 GN=Asthi5 PE=2 SV=1
+   20 : Q9S9A2_VISAL        0.49  0.78    2   46   28   72   45    0    0  111  Q9S9A2     Viscotoxin A OS=Viscum album OX=3972 PE=4 SV=1
+   21 : R0F7R7_9BRAS        0.49  0.78    2   46   26   70   45    0    0  134  R0F7R7     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10006002mg PE=4 SV=1
+   22 : THN3_VISAL          0.49  0.78    2   46   28   72   45    0    0  111  P01538     Viscotoxin-A3 OS=Viscum album OX=3972 GN=THI2.1 PE=1 SV=2
+   23 : A0A1E5VL03_9        0.47  0.73    2   46   29   72   45    1    1   72  A0A1E5VL03 Uncharacterized protein OS=Dichanthelium oligosanthes OX=888268 GN=BAE44_0013194 PE=4 SV=1
+   24 : A0A287SR90_H        0.47  0.76    2   46   45   89   45    0    0  152  A0A287SR90 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   25 : A0A287T4C0_H        0.47  0.76    2   46   48   92   45    0    0  155  A0A287T4C0 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   26 : A0A2S3I6V9_9        0.47  0.76    2   46   27   70   45    1    1  135  A0A2S3I6V9 Uncharacterized protein OS=Panicum hallii OX=206008 GN=PAHAL_7G158700 PE=4 SV=1
+   27 : A0A2T7CV84_9        0.47  0.73    2   46   27   70   45    1    1  135  A0A2T7CV84 Uncharacterized protein OS=Panicum hallii var. hallii OX=1504633 GN=GQ55_7G149700 PE=4 SV=1
+   28 : A0A3L6QAF2_P        0.47  0.67    2   46   26   69   45    1    1  135  A0A3L6QAF2 Thionin OS=Panicum miliaceum OX=4540 GN=C2845_PM15G09070 PE=4 SV=1
+   29 : Q38L62_SALMI        0.47  0.67    2   46   20   63   45    1    1  121  Q38L62     Thionin OS=Salvia miltiorrhiza OX=226208 PE=2 SV=1
+   30 : Q43225_TULGE        0.47  0.76    2   46   20   64   45    0    0  114  Q43225     Thionin class 1 OS=Tulipa gesneriana OX=13306 GN=Thi1-2 PE=2 SV=1
+   31 : Q43226_TULGE        0.47  0.76    2   46   20   64   45    0    0  107  Q43226     Thionin class 1 OS=Tulipa gesneriana OX=13306 GN=Thi1-3 PE=2 SV=1
+   32 : R0FRU0_9BRAS        0.47  0.80    2   46   26   70   45    0    0  134  R0FRU0     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10018222mg PE=4 SV=1
+   33 : R0G868_9BRAS        0.47  0.78    2   46   24   68   45    0    0  132  R0G868     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10014907mg PE=4 SV=1
+   34 : R0I1C8_9BRAS        0.47  0.78    2   46   24   68   45    0    0  132  R0I1C8     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10014906mg PE=4 SV=1
+   35 : THNA_PHOLI          0.47  0.76    2   46    2   46   45    0    0   46  P01540     Ligatoxin-A OS=Phoradendron liga OX=3968 PE=1 SV=1
+   36 : A0A4U6U3H5_S        0.46  0.66    2   42   35   75   41    0    0  142  A0A4U6U3H5 Uncharacterized protein OS=Setaria viridis OX=4556 GN=SEVIR_6G140000v2 PE=4 SV=1
+   37 : K3YJV8_SETIT        0.46  0.66    2   42   66  106   41    0    0  173  K3YJV8     Uncharacterized protein OS=Setaria italica OX=4555 PE=4 SV=1
+   38 : K3YK37_SETIT        0.46  0.66    2   42   35   75   41    0    0  142  K3YK37     Uncharacterized protein OS=Setaria italica OX=4555 GN=101772197 PE=4 SV=1
+   39 : K3YK38_SETIT        0.46  0.66    2   42   35   75   41    0    0  142  K3YK38     Uncharacterized protein OS=Setaria italica OX=4555 GN=101765832 PE=4 SV=1
+   40 : K3YK39_SETIT        0.46  0.68    2   42   35   75   41    0    0  142  K3YK39     Uncharacterized protein OS=Setaria italica OX=4555 GN=101773008 PE=4 SV=1
+   41 : K3YK46_SETIT        0.46  0.68    2   42   35   75   41    0    0  140  K3YK46     Uncharacterized protein OS=Setaria italica OX=4555 GN=101773008 PE=4 SV=1
+   42 : K3YK47_SETIT        0.46  0.66    2   42   35   75   41    0    0  140  K3YK47     Uncharacterized protein OS=Setaria italica OX=4555 GN=101765832 PE=4 SV=1
+   43 : R0HVZ8_9BRAS        0.45  0.70    2   45   26   69   44    0    0  134  R0HVZ8     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10016370mg PE=4 SV=1
+   44 : A0A287EC36_H        0.44  0.76    2   46   30   74   45    0    0  137  A0A287EC36 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   45 : A0A287EC66_H        0.44  0.76    2   46   30   74   45    0    0   93  A0A287EC66 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   46 : A0A287SR53_H        0.44  0.76    2   46   30   74   45    0    0  108  A0A287SR53 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   47 : A0A287SR95_H        0.44  0.76    2   46   46   90   45    0    0  153  A0A287SR95 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   48 : A0A287SRE7_H        0.44  0.76    2   46   47   91   45    0    0  154  A0A287SRE7 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   49 : A0A287T3E9_H        0.44  0.76    2   46   30   74   45    0    0  137  A0A287T3E9 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   50 : A0A287T456_H        0.44  0.76    2   46   46   90   45    0    0  109  A0A287T456 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   51 : A0A287T461_H        0.44  0.76    2   46   30   74   45    0    0  137  A0A287T461 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   52 : A0A287T463_H        0.44  0.76    2   46   22   66   45    0    0  100  A0A287T463 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   53 : A0A287T472_H        0.44  0.76    2   46   23   67   45    0    0  130  A0A287T472 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   54 : A0A287T475_H        0.44  0.76    2   46   23   67   45    0    0   86  A0A287T475 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   55 : A0A287T481_H        0.44  0.76    2   46   30   74   45    0    0   93  A0A287T481 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   56 : A0A287T4A3_H        0.44  0.76    2   46   30   74   45    0    0  137  A0A287T4A3 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   57 : A0A287T4A6_H        0.44  0.76    2   46   45   89   45    0    0  152  A0A287T4A6 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   58 : A0A287T4B1_H        0.44  0.76    2   46   45   89   45    0    0  152  A0A287T4B1 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   59 : A0A287T4B3_H        0.44  0.76    2   46   30   74   45    0    0  137  A0A287T4B3 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   60 : A0A287T4B6_H        0.44  0.76    2   46   30   74   45    0    0  108  A0A287T4B6 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   61 : A0A287T4C4_H        0.44  0.76    2   46   48   92   45    0    0  155  A0A287T4C4 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   62 : A0A287T4C7_H        0.44  0.76    2   46   46   90   45    0    0  109  A0A287T4C7 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   63 : A0A287T4D0_H        0.44  0.76    2   46   30   74   45    0    0   93  A0A287T4D0 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   64 : A0A287T4F2_H        0.44  0.76    2   46   50   94   45    0    0  157  A0A287T4F2 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   65 : A0A287T4G8_H        0.44  0.76    2   46   30   74   45    0    0  137  A0A287T4G8 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   66 : A0A287T4I5_H        0.44  0.76    2   46   46   90   45    0    0  153  A0A287T4I5 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   67 : A0A287T4J1_H        0.44  0.76    2   46   30   74   45    0    0  198  A0A287T4J1 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   68 : A0A287T4J4_H        0.44  0.76    2   46   45   89   45    0    0  152  A0A287T4J4 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   69 : A0A287T4L8_H        0.44  0.76    2   46   49   93   45    0    0  156  A0A287T4L8 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   70 : A0A287T4M1_H        0.44  0.76    2   46   42   86   45    0    0  107  A0A287T4M1 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+   71 : A0A2S3I6Y6_9        0.44  0.64    2   46   26   69   45    1    1  132  A0A2S3I6Y6 Uncharacterized protein OS=Panicum hallii OX=206008 GN=PAHAL_7G158800 PE=4 SV=1
+   72 : A0A2T7CV98_9        0.44  0.64    2   46   27   70   45    1    1  133  A0A2T7CV98 Uncharacterized protein OS=Panicum hallii var. hallii OX=1504633 GN=GQ55_7G150000 PE=4 SV=1
+   73 : A0A4U6U3F4_S        0.44  0.68    2   42   35   75   41    0    0  120  A0A4U6U3F4 Uncharacterized protein OS=Setaria viridis OX=4556 GN=SEVIR_6G099714v2 PE=4 SV=1
+   74 : A0A4U6U9G0_S        0.44  0.68    2   42   35   75   41    0    0  142  A0A4U6U9G0 Uncharacterized protein OS=Setaria viridis OX=4556 GN=SEVIR_6G097657v2 PE=4 SV=1
+   75 : C9W327_HORVV        0.44  0.76    2   46   30   74   45    0    0  137  C9W327     Lemma thionin OS=Hordeum vulgare subsp. vulgare OX=112509 GN=LemThio1 PE=2 SV=1
+   76 : D0VWT3_VISAL        0.44  0.76    2   46    2   46   45    0    0   46  D0VWT3     Viscotoxin A1 OS=Viscum album OX=3972 PE=1 SV=1
+   77 : F2D5I9_HORVV        0.44  0.76    2   46   30   74   45    0    0  137  F2D5I9     Predicted protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=2 SV=1
+   78 : F2D7C5_HORVV        0.44  0.76    2   46   30   74   45    0    0  137  F2D7C5     Predicted protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=2 SV=1
+   79 : Q9S9A0_VISAL        0.44  0.76    2   46   28   72   45    0    0  114  Q9S9A0     Thionin OS=Viscum album OX=3972 PE=4 SV=1
+   80 : R0F705_9BRAS        0.44  0.76    2   46   26   70   45    0    0  134  R0F705     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10006003mg PE=4 SV=1
+   81 : R0FHE8_9BRAS        0.44  0.71    2   46   26   70   45    0    0  136  R0FHE8     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10002233mg PE=4 SV=1
+   82 : R0GLD4_9BRAS        0.44  0.67    2   46   26   70   45    0    0  109  R0GLD4     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10006071mg PE=4 SV=1
+   83 : R0GP19_9BRAS        0.44  0.73    2   46   26   70   45    0    0  134  R0GP19     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10012371mg PE=4 SV=1
+   84 : R0HES6_9BRAS        0.44  0.78    2   46   24   68   45    0    0  132  R0HES6     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10024304mg PE=4 SV=1
+   85 : THN5_HORVU          0.44  0.76    2   46   30   74   45    0    0  137  P09617     Leaf-specific thionin OS=Hordeum vulgare OX=4513 GN=THI1.5 PE=2 SV=2
+   86 : THN7_HORVU          0.44  0.76    2   46   30   74   45    0    0  137  Q42838     Thionin BTH7 OS=Hordeum vulgare OX=4513 PE=2 SV=1
+   87 : THNB_PHOLI          0.44  0.76    2   46    2   46   45    0    0   46  P59358     Ligatoxin-B OS=Phoradendron liga OX=3968 PE=1 SV=1
+   88 : THNB_VISAL          0.44  0.76    2   46    8   52   45    0    0  103  P08943     Viscotoxin-B (Fragment) OS=Viscum album OX=3972 GN=THI2.2 PE=1 SV=2
+   89 : A0A0E0PYH3_O        0.43  0.65    2   38   29   65   37    0    0  110  A0A0E0PYH3 Uncharacterized protein OS=Oryza rufipogon OX=4529 PE=4 SV=1
+   90 : A0A397ZYX6_B        0.43  0.73    3   46   27   70   44    0    0  134  A0A397ZYX6 Uncharacterized protein OS=Brassica campestris OX=3711 GN=BRARA_C02750 PE=4 SV=1
+   91 : B9FTI4_ORYSJ        0.43  0.65    2   38   29   65   37    0    0  110  B9FTI4     Uncharacterized protein OS=Oryza sativa subsp. japonica OX=39947 GN=OsJ_21501 PE=4 SV=1
+   92 : B9FTI5_ORYSJ        0.43  0.65    2   38   29   65   37    0    0  110  B9FTI5     Uncharacterized protein OS=Oryza sativa subsp. japonica OX=39947 GN=OsJ_21502 PE=4 SV=1
+   93 : C7J3B8_ORYSJ        0.43  0.65    2   38   29   65   37    0    0  104  C7J3B8     Os06g0515301 protein OS=Oryza sativa subsp. japonica OX=39947 GN=Os06g0515301 PE=4 SV=1
+   94 : D2CVR6_BRANA        0.43  0.73    3   46   27   70   44    0    0  134  D2CVR6     Thionin OS=Brassica napus OX=3708 PE=2 SV=1
+   95 : D7L3I4_ARALL        0.43  0.73    3   42   30   69   40    0    0   89  D7L3I4     Uncharacterized protein OS=Arabidopsis lyrata subsp. lyrata OX=81972 GN=ARALYDRAFT_899723 PE=4 SV=1
+   96 : I1H3Q0_BRADI        0.43  0.73    2   45   30   73   44    0    0  139  I1H3Q0     Uncharacterized protein OS=Brachypodium distachyon OX=15368 GN=BRADI_1g57337v3 PE=4 SV=1
+   97 : M4C9D6_BRARP        0.43  0.73    3   46   27   70   44    0    0  134  M4C9D6     Uncharacterized protein OS=Brassica rapa subsp. pekinensis OX=51351 PE=4 SV=1
+   98 : THN_BRARP           0.43  0.73    3   46   27   70   44    0    0  133  Q9SBK8     Thionin OS=Brassica rapa subsp. pekinensis OX=51351 GN=THI2 PE=2 SV=1
+   99 : A0A087G0A9_A        0.42  0.73    2   46   14   57   45    1    1  120  A0A087G0A9 Uncharacterized protein OS=Arabis alpina OX=50452 GN=AALP_AAs68437U000100 PE=4 SV=1
+  100 : A0A1J3CL99_N        0.42  0.67    3   46   50   94   45    1    1  158  A0A1J3CL99 Thionin-2.2 (Fragment) OS=Noccaea caerulescens OX=107243 GN=GA_TR14544_c0_g1_i1_g.45090 PE=4 SV=1
+  101 : A0A1J3FQF7_N        0.42  0.67    3   46   27   71   45    1    1  135  A0A1J3FQF7 Thionin-2.2 OS=Noccaea caerulescens OX=107243 GN=LC_TR14666_c0_g1_i1_g.50119 PE=4 SV=1
+  102 : A0A1J3IAU1_N        0.42  0.67    3   46   55   99   45    1    1  163  A0A1J3IAU1 Thionin-2.2 (Fragment) OS=Noccaea caerulescens OX=107243 GN=MP_TR25575_c0_g1_i1_g.74705 PE=4 SV=1
+  103 : A0A1J3JKZ0_N        0.42  0.60    3   46   27   71   45    1    1  135  A0A1J3JKZ0 Thionin-2.2 OS=Noccaea caerulescens OX=107243 GN=MP_TR3683_c0_g1_i1_g.10000 PE=4 SV=1
+  104 : A0A287T485_H        0.42  0.73    2   46   30   74   45    0    0  113  A0A287T485 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  105 : A0A287T487_H        0.42  0.73    2   46   46   90   45    0    0  110  A0A287T487 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  106 : A0A287T497_H        0.42  0.76    2   46   30   74   45    0    0  137  A0A287T497 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  107 : A0A287T4H0_H        0.42  0.73    2   46   45   89   45    0    0  109  A0A287T4H0 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  108 : A0A287T4H5_H        0.42  0.73    2   46   30   74   45    0    0  137  A0A287T4H5 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  109 : A0A287T4I0_H        0.42  0.73    2   46   48   92   45    0    0  155  A0A287T4I0 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  110 : A0A287T4I9_H        0.42  0.73    2   46   45   89   45    0    0  152  A0A287T4I9 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  111 : A0A287T4K6_H        0.42  0.71    2   46   46   90   45    0    0  153  A0A287T4K6 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  112 : A0A287T4L6_H        0.42  0.73    2   46    8   52   45    0    0   60  A0A287T4L6 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  113 : A0A2K2DS17_B        0.42  0.64    2   46   30   74   45    0    0  134  A0A2K2DS17 Uncharacterized protein OS=Brachypodium distachyon OX=15368 GN=100844105 PE=4 SV=1
+  114 : A0A2S3I6U2_9        0.42  0.71    2   46   26   69   45    1    1  134  A0A2S3I6U2 Uncharacterized protein OS=Panicum hallii OX=206008 GN=PAHAL_7G159300 PE=4 SV=1
+  115 : A0A2T7CV86_9        0.42  0.69    2   46   26   69   45    1    1  134  A0A2T7CV86 Uncharacterized protein OS=Panicum hallii var. hallii OX=1504633 GN=GQ55_7G150300 PE=4 SV=1
+  116 : A0A2T8ICE3_9        0.42  0.69    2   46   26   69   45    1    1  134  A0A2T8ICE3 Uncharacterized protein OS=Panicum hallii OX=206008 GN=PAHAL_7G159500 PE=4 SV=1
+  117 : F2D1X7_HORVV        0.42  0.73    2   46   30   74   45    0    0  137  F2D1X7     Predicted protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=2 SV=1
+  118 : I1H3Q6_BRADI        0.42  0.64    2   46   30   74   45    0    0  139  I1H3Q6     Uncharacterized protein OS=Brachypodium distachyon OX=15368 GN=100844105 PE=4 SV=1
+  119 : Q43224_TULGE        0.42  0.67    2   46   20   64   45    0    0  121  Q43224     Thionin class 1 OS=Tulipa gesneriana OX=13306 GN=Thi1-1 PE=2 SV=1
+  120 : Q8LT00_AVESA        0.42  0.71    2   46   30   74   45    0    0  142  Q8LT00     Thionin Asthi4 OS=Avena sativa OX=4498 GN=Asthi4 PE=2 SV=1
+  121 : R0F708_9BRAS        0.42  0.69    2   46   26   69   45    1    1  133  R0F708     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10006008mg PE=4 SV=1
+  122 : R0G7T6_9BRAS        0.42  0.71    2   46   24   68   45    0    0  132  R0G7T6     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10014903mg PE=4 SV=1
+  123 : R0H2A6_9BRAS        0.42  0.73    2   46   26   69   45    1    1  136  R0H2A6     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10005988mg PE=4 SV=1
+  124 : R0IA88_9BRAS        0.42  0.69    2   46   26   69   45    1    1  133  R0IA88     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10021135mg PE=4 SV=1
+  125 : THNC_VISAL          0.42  0.76    2   46    2   46   45    0    0   46  P83554     Viscotoxin-C1 OS=Viscum album OX=3972 PE=1 SV=1
+  126 : THNX_HORVU          0.42  0.76    2   46   30   74   45    0    0  137  Q8H0Q5     Probable leaf thionin OS=Hordeum vulgare OX=4513 PE=2 SV=1
+  127 : A0A087HJG2_A        0.41  0.72    2   46   27   72   46    1    1  136  A0A087HJG2 Uncharacterized protein OS=Arabis alpina OX=50452 GN=AALP_AA2G233000 PE=4 SV=1
+  128 : A0A087HJG4_A        0.41  0.70    3   46   16   59   44    0    0  120  A0A087HJG4 Uncharacterized protein OS=Arabis alpina OX=50452 GN=AALP_AA2G233300 PE=4 SV=1
+  129 : A0A0Q3S700_B        0.41  0.66    2   45   30   73   44    0    0  135  A0A0Q3S700 Uncharacterized protein OS=Brachypodium distachyon OX=15368 GN=100841368 PE=4 SV=1
+  130 : A0A2S3I7M9_9        0.41  0.61    2   46   26   70   46    2    2  135  A0A2S3I7M9 Uncharacterized protein OS=Panicum hallii OX=206008 GN=PAHAL_7G159200 PE=4 SV=1
+  131 : A0A087HKL3_A        0.40  0.64    2   46   26   70   45    0    0  133  A0A087HKL3 Uncharacterized protein OS=Arabis alpina OX=50452 GN=AALP_AA1G023900 PE=4 SV=1
+  132 : A0A0D3GH81_9        0.40  0.56    2   46   21   64   45    1    1  127  A0A0D3GH81 Uncharacterized protein OS=Oryza barthii OX=65489 PE=4 SV=1
+  133 : A0A0D3GH82_9        0.40  0.60    2   46   29   72   45    1    1  135  A0A0D3GH82 Uncharacterized protein OS=Oryza barthii OX=65489 PE=4 SV=1
+  134 : A0A0D3GH83_9        0.40  0.60    2   46   29   72   45    1    1  150  A0A0D3GH83 Uncharacterized protein OS=Oryza barthii OX=65489 PE=4 SV=1
+  135 : A0A0E0LC28_O        0.40  0.62    2   46   29   72   45    1    1  135  A0A0E0LC28 Uncharacterized protein OS=Oryza punctata OX=4537 PE=4 SV=1
+  136 : A0A0E0LC29_O        0.40  0.62    2   46   29   72   45    1    1  135  A0A0E0LC29 Uncharacterized protein OS=Oryza punctata OX=4537 PE=4 SV=1
+  137 : A0A0E0LC31_O        0.40  0.58    2   46   30   73   45    1    1  136  A0A0E0LC31 Uncharacterized protein OS=Oryza punctata OX=4537 PE=4 SV=1
+  138 : A0A287SR45_H        0.40  0.71    2   46   30   74   45    0    0  137  A0A287SR45 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  139 : A0A287SR49_H        0.40  0.71    2   46   49   93   45    0    0  156  A0A287SR49 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  140 : A0A287SRC6_H        0.40  0.71    2   46   30   74   45    0    0   93  A0A287SRC6 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  141 : A0A287SRE1_H        0.40  0.71    2   46   46   90   45    0    0  153  A0A287SRE1 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  142 : A0A287T466_H        0.40  0.71    2   46   44   88   45    0    0  151  A0A287T466 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  143 : A0A287T471_H        0.40  0.71    2   46   30   74   45    0    0  108  A0A287T471 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  144 : A0A287T476_H        0.40  0.71    2   46   45   89   45    0    0  152  A0A287T476 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  145 : A0A287T482_H        0.40  0.71    2   46   49   93   45    0    0  156  A0A287T482 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  146 : A0A287T4A0_H        0.40  0.71    2   46   30   74   45    0    0  137  A0A287T4A0 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  147 : A0A287T4A5_H        0.40  0.71    2   46   50   94   45    0    0  157  A0A287T4A5 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  148 : A0A287T4A8_H        0.40  0.73    2   46   30   74   45    0    0  137  A0A287T4A8 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  149 : A0A287T4B4_H        0.40  0.71    2   46   46   90   45    0    0  153  A0A287T4B4 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  150 : A0A287T4B8_H        0.40  0.71    2   46   30   74   45    0    0  137  A0A287T4B8 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  151 : A0A287T4D3_H        0.40  0.71    2   46   49   93   45    0    0  118  A0A287T4D3 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  152 : A0A287T4E0_H        0.40  0.71    2   46   45   89   45    0    0  143  A0A287T4E0 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  153 : A0A287T4E2_H        0.40  0.71    2   46   45   89   45    0    0  114  A0A287T4E2 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  154 : A0A287T4J5_H        0.40  0.71    2   46   50   94   45    0    0  157  A0A287T4J5 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  155 : A0A287T4L1_H        0.40  0.71    2   46   46   90   45    0    0  153  A0A287T4L1 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  156 : A0A287T4L4_H        0.40  0.71    2   46   45   89   45    0    0   97  A0A287T4L4 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  157 : A2YDH3_ORYSI        0.40  0.60    2   46   29   72   45    1    1  135  A2YDH3     Uncharacterized protein OS=Oryza sativa subsp. indica OX=39946 GN=OsI_23164 PE=4 SV=1
+  158 : A2YDH5_ORYSI        0.40  0.60    2   46   29   72   45    1    1  135  A2YDH5     Thionin OS=Oryza sativa subsp. indica OX=39946 GN=OsI_23165 PE=2 SV=1
+  159 : I1H3P1_BRADI        0.40  0.67    2   46   30   74   45    0    0  135  I1H3P1     Uncharacterized protein OS=Brachypodium distachyon OX=15368 GN=BRADI_1g57280v3 PE=4 SV=1
+  160 : I1Q2L0_ORYGL        0.40  0.62    2   46   29   72   45    1    1  150  I1Q2L0     Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=4 SV=1
+  161 : M0WAF4_HORVV        0.40  0.71    2   46   30   74   45    0    0  137  M0WAF4     Uncharacterized protein OS=Hordeum vulgare subsp. vulgare OX=112509 PE=4 SV=1
+  162 : Q5Z434_ORYSJ        0.40  0.60    2   46   29   72   45    1    1  135  Q5Z434     Os06g0512700 protein OS=Oryza sativa subsp. japonica OX=39947 GN=Os06g0512700 PE=2 SV=1
+  163 : Q5Z4K0_ORYSJ        0.40  0.60    2   46   29   72   45    1    1  135  Q5Z4K0     Os06g0513781 protein OS=Oryza sativa subsp. japonica OX=39947 GN=Os06g0513781 PE=2 SV=1
+  164 : Q5Z4S4_ORYSJ        0.40  0.60    2   46   29   72   45    1    1  135  Q5Z4S4     Os06g0514100 protein OS=Oryza sativa subsp. japonica OX=39947 GN=Os06g0514100 PE=2 SV=1
+  165 : Q8LT04_ORYSJ        0.40  0.60    2   46   29   72   45    1    1  135  Q8LT04     Os06g0514800 protein OS=Oryza sativa subsp. japonica OX=39947 GN=Osthi1 PE=2 SV=1
+  166 : Q9S9D7_HORVU        0.40  0.71    2   46   30   74   45    0    0  137  Q9S9D7     Thionin OS=Hordeum vulgare OX=4513 PE=4 SV=1
+  167 : R0F343_9BRAS        0.40  0.71    2   46   26   69   45    1    1   77  R0F343     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10006928mg PE=4 SV=1
+  168 : R0H0H7_9BRAS        0.40  0.69    2   46   26   69   45    1    1  133  R0H0H7     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10006551mg PE=4 SV=1
+  169 : R0HUF3_9BRAS        0.40  0.71    2   46   26   69   45    1    1  133  R0HUF3     Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10021136mg PE=4 SV=1
+  170 : THN2_VISAL          0.40  0.73    2   46    2   45   45    1    1   46  P32880     Viscotoxin-A2 OS=Viscum album OX=3972 GN=THI2.3 PE=1 SV=1
+  171 : THN6_HORVU          0.40  0.71    2   46   30   74   45    0    0  137  P09618     Leaf-specific thionin BTH6 OS=Hordeum vulgare OX=4513 PE=2 SV=3
+  172 : A0A270R4Y0_9        0.39  0.65    2   46   26   70   46    2    2  135  A0A270R4Y0 Uncharacterized protein OS=Panicum hallii OX=206008 GN=PAHAL_J01285 PE=4 SV=1
+  173 : A0A2S3I6Z2_9        0.39  0.65    2   46   26   70   46    2    2  136  A0A2S3I6Z2 Uncharacterized protein OS=Panicum hallii OX=206008 GN=PAHAL_7G159400 PE=4 SV=1
+  174 : A0A2T7CV99_9        0.39  0.61    2   46   26   70   46    2    2  135  A0A2T7CV99 Uncharacterized protein OS=Panicum hallii var. hallii OX=1504633 GN=GQ55_7G150200 PE=4 SV=1
+  175 : I1H3P2_BRADI        0.39  0.63    2   46   30   74   46    2    2  135  I1H3P2     Uncharacterized protein OS=Brachypodium distachyon OX=15368 GN=100841068 PE=4 SV=1
+  176 : I1H3P5_BRADI        0.39  0.61    2   46   30   74   46    2    2  135  I1H3P5     Uncharacterized protein OS=Brachypodium distachyon OX=15368 GN=BRADI_1g57296v3 PE=4 SV=1
+## ALIGNMENTS    1 -   70
+ SeqNo  PDBNo AA STRUCTURE BP1 BP2  ACC NOCC  VAR  ....:....1....:....2....:....3....:....4....:....5....:....6....:....7 CHAIN AUTHCHAIN
+     1    1 A T              0   0   75    2    0  T                                                                          A         A
+     2    2 A T  E     -A   34   0A  21  166    9  TSSSSSSSTSSSSS SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS     A         A
+     3    3 A a  E     -A   33   0A   0  177    0  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC     A         A
+     4    4 A b        -     0   0    0  177    1  CCCCCCCCCCCFCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC     A         A
+     5    5 A P  S    S+     0   0   54  177   56  PPPPPPKPKKPPPRPRKPPPPPKKKKKKPRRPPPPPPPPPPPPKKKKKKKKKKKKKKKKKKKKKKKKKKK     A         A
+     6    6 A S  S  > S-     0   0   49  177   62  STTTSNDTDDSSNNSNSSSNNNSDDSSSSNNNSTSSSSSSSSSNNNNNNNNNNNNNNNNNNNNNNNNNNN     A         A
+     7    7 A I  H  > S+     0   0  120  177   21  ITTTTTITDTTTRTLTTITTTTTTTTTTTTTTTTTTTTTTTTSTTTTTTTTTTTTTTTTTTTTTTTTTTT     A         A
+     8    8 A V  H  > S+     0   0   98  177   66  VAAAATMAITNATWTVLTSTTTILLLLLTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT     A         A
+     9    9 A A  H  > S+     0   0    7  177   31  AAAAAAAAAAAAAASAAAAGAGAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGGGGGGGGGGGGGGGGGG     A         A
+    10   10 A R  H  X S+     0   0   56  177    4  RRRRRRRRRRRKRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR     A         A
+    11   11 A S  H  X S+     0   0   64  176   22  SNNNNNNNNNNYNNINNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN     A         A
+    12   12 A N  H  X S+     0   0   82  177   61  NTTTCCCQCCICVCSCCICIIICCCCCCICCCIIIVVVIVVIICCCCCCCCCCCCCCCCCCCCCCCCCCC     A         A
+    13   13 A F  H  X S+     0   0    5  177    0  FYYYYYYYYYYYYYFYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY     A         A
+    14   14 A N  H  X S+     0   0   87  177   17  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN     A         A
+    15   15 A V  H >< S+     0   0   93  177   67  VVVVVVVIVVAAVVIVVAVATAVTTVVATVVATTTTTTTTTTTAAAAAATTAAAAAAAAAAAATAAAAAA     A         A
+    16   16 A c  H 3<>S+     0   0   19  177    0  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC     A         A
+    17   17 A R  H ><5S+     0   0   94  177    7  RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR     A         A
+    18   18 A L  T <<5S+     0   0  143  177   25  LLLLFLILIILLLLMLLILLLLLFFLLLLLLFFLLFLLILLIFFFFFFFFFFFFFFFFFFFFFFFFFFFF     A         A
+    19   19 A P  T 3 5S-     0   0  109  176   66  PPPPPPPPPPMPGPPPRTTTPTRAARRRRPPPATTTTTTTTTGAAAAAAAAAAAAAAAAAAAAAAAAAAA     A         A
+    20   20 A G  T < 5 +     0   0   52  177   25  GGGGGGGGGGGgpgGGGGGGGGDGGGGFLGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG     A         A
+    21   21 A T      < -     0   0   39  160   53  TTTTTTTTTTTrpiSA.TTATA.GG....TTATSTTAATAATVGGGGGGGGGGGGGGGGGGGGGGGGGGG     A         A
+    22   22 A P    >>  -     0   0   83  177   45  PPPPPPPPPPSPSSSPASSPPPLSSAAPPPPPPPSSSSSSSSPSSSSSSSSSSSSSSSSSSSSSSSSSSS     A         A
+    23   23 A E  H 3> S+     0   0   69  177   33  ERRRRRRRTRREPRKRRRRCRRQRRRRRARRRRRRRRRRRRRSRRRRRRRRRRRRRRRRRRRRRRRRRRR     A         A
+    24   24 A A  H 3> S+     0   0   62  177   57  APPPPPPPFPPTAEPPSPPPPPPPPSLPSPPPPPPPPPPPPPSPPPPPPPPPPPPPPPPPPPPPPPPPPP     A         A
+    25   25 A I  H <> S+     0   0   99  177   60  LVVVVTVVIVIIVIFVVTRTTTVVVVVVSVVVVVTTTTTMMTIVVVVVVVVVVVVVVVVVVVVVVVVVVV     A         A
+    26   26 A c  H  X S+     0   0    0  177    0  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC     A         A
+    27   27 A A  H  X S+     0   0   12  177    5  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAA     A         A
+    28   28 A T  H  < S+     0   0  120  177   80  TSSSASTANTSARKRSTKSKSKQTTTTTDAASSSSKKKKKKKGTTTTTTTTTTTTTTTTTTTTTTTTTTT     A         A
+    29   29 A Y  H  < S+     0   0  173  177   81  YLLLTLTLMTLRLKIATLLLLLVAATTTLTTLLLLLLLLLLLLAAAAAAAAAAAAAAAAAAAAAAAAAAA     A         A
+    30   30 A T  H  < S-     0   0   22  177   37  TSSSCCCSCCSCSCSCCSCSSSCCCCCCSCCCSSSSSSSSSSSCCCCCCCCCCCCCCCCCCCCCCCCCCC     A         A
+    31   31 A G  S  < S+     0   0   37  177   36  GGGGGGRGRRGGGDGDGGGGGGGGGGGGGDDGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG     A         A
+    32   32 A b        -     0   0    5  177    0  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC     A         A
+    33   33 A I  E     -A    3   0A  51  177   30  IIIIKKKKIKKKKKKKKKKKKKKKKKKKKKKQKIKKQQKQQKLKKKKKKKKKKKKKKKKKKKKKKKKKKK     A         A
+    34   34 A I  E     -A    2   0A  78  176   20  IIIIIIIIIIIIIIIIII.IIIIIIIIIVIIINNIIIIIIIILIIIIIIIIIIIIIIIIIIIIIIIIIII     A         A
+    35   35 A I        -     0   0   35  177   17  IIIIIVIITIVIIIVIIIIIIIIIIIIIIIIVIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII     A         A
+    36   36 A P  S    S+     0   0  141  176   57  PSSSTESSRSNSNSNTKSVSSSSSSKKKDSSGSSSSSSSSSSGSSSSSSSSSSSSSSSSSSSSSSSSSSS     A         A
+    37   37 A G  S    S-     0   0   41  177   19  GGGGGGGGRGGSGGGGGGDGSGGGGGGGGSSGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG     A         A
+    38   38 A A  S    S+     0   0   81  177   72  ATTTTPNTNNSGSTGPTDGSGSNPPTTNGGGSTTSNNNDNNDSPPPPPPPPPPPPPPPPPPPPPPPPPPP     A         A
+    39   39 A T        -     0   0  127  153   60  TRRRKTKGEK.NTTNRKKTTRTETTKKKTKKTKKTKKKKKKKKTTTTTTTTTTTTTTTTTTTTTTTTTTT     A         A
+    40   40 A a        -     0   0   44  173    0  CCCCCCCCCCCCCCCYCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC     A         A
+    41   41 A P    >   -     0   0   56  173   26  PPPPPPPPPPPPPPPPPKPPPPPPPPPPPPPPPPBKKKKKKKPPPPPPPPPPPPPPPPPPPPPPPPPPPP     A         A
+    42   42 A G  G >  S+     0   0   76  172   68  GPPPPPKPNKGPNSPRPPDSNSSRRSSPTPPSNNSPPPPPPPNRRRRRRRRRRRRRRRRRRRRRRRRRRR     A         A
+    43   43 A D  G 3  S+     0   0  116  162   45  DNNNDGDGDDGGGDDDG GDGDDDDGGGGGGGGGG       GDDDDDDDDDDDDDDDDDDDDDDDDDDD     A         A
+    44   44 A Y  G <  S+     0   0   68  161    6  YYYYY YYYYYYYYYYY YYYYYYYFFYWYYYYYW       YYYYYYYYYYYYYYYYYYYYYYYYYYYY     A         A
+    45   45 A A    <         0   0   71  159   47  APPPP P PPP TPPPP SPTPPPPPPPTEETTPB       TPPPPPPPPPPPPPPPPPPPPPPPPPPP     A         A
+    46   46 A N              0   0   76  155   54  NRRRK K KKK NK SK KKHKKKKKKKNKKQHHH        KKKKKKKKKKKKKKKKKKKKKKKKKKK     A         A
+## ALIGNMENTS   71 -  140
+ SeqNo  PDBNo AA STRUCTURE BP1 BP2  ACC NOCC  VAR  ....:....8....:....9....:....0....:....1....:....2....:....3....:....4 CHAIN AUTHCHAIN
+     1    1 A T              0   0   75    2    0                                                                             A         A
+     2    2 A T  E     -A   34   0A  21  166    9  TTSSSSSSSSSSSSSSSSS SSS  S  S    SSSSSSSSSSSSSSSSSSSSSSSS SSSSSSTTSSSS     A         A
+     3    3 A a  E     -A   33   0A   0  177    0  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC     A         A
+     4    4 A b        -     0   0    0  177    1  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC     A         A
+     5    5 A P  S    S+     0   0   54  177   56  KKPPKPKKRPPPPPKKPPPPPPPPPKPPPPPPPKKKKKKKKKKKKKKKRKPPPPPKPPKKPPPPPPPKKK     A         A
+     6    6 A S  S  > S-     0   0   49  177   62  NNSSNSNNNNSDNSNNSNSRSSSRSTRRSTTTTTTNTTTTDTTNSSTTTSTSTNNNSSNSSSSSSSSDDD     A         A
+     7    7 A I  H  > S+     0   0  120  177   21  TTTTTTTTTTIKTTTTTTTTTTTTETTTSTTTTTTTTTTTTTTTTTTTTTSTTSTTLVTTTTTTTTTTTT     A         A
+     8    8 A V  H  > S+     0   0   98  177   66  LLTTTTTTTTTTATTTTTTITTTISMIISTTTAFFTFFFFLFTQLLFTATTTTTTTDTSPNTTTTTTLLL     A         A
+     9    9 A A  H  > S+     0   0    7  177   31  AAAAGGGGGGSSPAGGAGADAAADSADDSAAAAAAGAAAAAAAAAAAAAAAAAAGGASSAAAAAAAAAAA     A         A
+    10   10 A R  H  X S+     0   0   56  177    4  RRRRRRRRRRRRRRRRRRRRRRRRRRRRRKKKRRRRRRRRRRRRRRRRRIRRRRRRRRRRRRRRRRRRRR     A         A
+    11   11 A S  H  X S+     0   0   64  176   22  SSNNNNNNNNNNNNNNNNNNNNNNENNNNEEEDNNNNNNNNNNNNNNNNNNNNNNNDYLNNXNNNNNNNN     A         A
+    12   12 A N  H  X S+     0   0   82  177   61  CCIICICCCCFCCICCIIVIVVVINCIIIAAATCCCCCCCCCCCCCCCCCIIVVICDACCVVVVIVICCC     A         A
+    13   13 A F  H  X S+     0   0    5  177    0  YYYYYYYYYYYYYYYYYYYYYYYYFYYYYYYYFYYYYYYYYYYYYYYYYYYYYYYYYFYYYYYYYYYYYY     A         A
+    14   14 A N  H  X S+     0   0   87  177   17  IINNNNNNNNKNNNNNNNNNNNNNDNNNNVVVINNNNNNNNNNKNNNNNNNNNNNNDNNNNNNNTTNNNN     A         A
+    15   15 A V  H >< S+     0   0   93  177   67  VVTTTTAAAVSAGTAATTSASSSALVAATVVVGTTATTTTTTVIIITVVVTTTTTALIAILSSSSSATTT     A         A
+    16   16 A c  H 3<>S+     0   0   19  177    0  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcCCCCCCCCCC     A         A
+    17   17 A R  H ><5S+     0   0   94  177    7  RRRRRRRRRRCRRRRRRRRRRRRRIRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRHRRRrLRRRRRRRRR     A         A
+    18   18 A L  T <<5S+     0   0  143  177   25  LLFFFLFFVLILIFFFLLFLFFFLSFLLFFFFIFFFFFFFFFFLLLFFLLVFLVFFLIKLLFFFFFLFFF     A         A
+    19   19 A P  T 3 5S-     0   0  109  176   66  RRGGATAAPTVIPAAATGATAAATYGTTTRRRNAAAAAAAAATSRRATGAVGAVAAVGARVXAAAAAAAA     A         A
+    20   20 A G  T < 5 +     0   0   52  177   25  FFGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGMGGGGGGGGGGFFLGGGGGGGGGGGGGIQGGGGGYGGG     A         A
+    21   21 A T      < -     0   0   39  160   53  ..AAGSGGTAFTTSGGAGGAGGGAAGAAAGGGRGGGGGGGGGA...GATAGGLGGGYRG.HGGGAGGGGG     A         A
+    22   22 A P    >>  -     0   0   83  177   45  PPSSSSSSPPPYAPSSSSSSSSSSSASSPLLLNSSSSSSSSSSPPPSSPPSSSSSSSSSHPSSSSSTSSS     A         A
+    23   23 A E  H 3> S+     0   0   69  177   33  SSRRRRRRRRITKRRRRRRMRRRMQRMMRRRRERRRRRRRRRRRRRRRQRRRRRRRKNQRRRRRMRRRRR     A         A
+    24   24 A A  H 3> S+     0   0   62  177   57  SSSSPEPPPPGEGPPPSEDTNDDTPPTTQAAAPPPPPPPPPPLAPPPLTPPPAPEPDKGLSDDDDDDPPP     A         A
+    25   25 A I  H <> S+     0   0   99  177   60  VVMMVTVVVIKATVVVVRTNTTTNAVNNRVVVAVVVVVVVVVAIVVVALVSVVTRVDFAVVTTTMMIVVV     A         A
+    26   26 A c  H  X S+     0   0    0  177    0  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC     A         A
+    27   27 A A  H  X S+     0   0   12  177    5  AAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAASAAA     A         A
+    28   28 A T  H  < S+     0   0  120  177   80  LLKKTKTTSNKKISTTSSKNKKKNSRNNSFFFLGGTGGGGGGNIKRGNRGGGNGKTSRSKRKKKRRKGGG     A         A
+    29   29 A Y  H  < S+     0   0  173  177   81  TTLLALAALGLALLAALLLLLLLLISLLIRRRSAAAAAAAAAITTTAITPLLRLLATITTILLLLLLAAA     A         A
+    30   30 A T  H  < S-     0   0   22  177   37  CCSSCSCCCCSCCSCCSSSSSSSSTCSSSTTTSCCCCCCCCCCCCCCCCCSSSSSCNSCCSSSSSSSCCC     A         A
+    31   31 A G  S  < S+     0   0   37  177   36  RRGGGGGGDGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGRGGDGGGGDGGGGGGGGAGGQGGGGGGRRR     A         A
+    32   32 A b        -     0   0    5  177    0  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC     A         A
+    33   33 A I  E     -A    3   0A  51  177   30  KKKKKKKKKKKKKKKKKKKKKKKKVKKKQKKKKKKKKKKKKKTIKKKTIKKKRKKKKKIKKKKKKKKKKK     A         A
+    34   34 A I  E     -A    2   0A  78  176   20  IIIIIIIIIIIILNIIIIIIIIIIRIIIIIIIMIIIIIIIIIIIIIIIHLIILIIILIHIIIIIIIIIII     A         A
+    35   35 A I        -     0   0   35  177   17  IIIIIIIIIVIVIIIIIIVVVVVVFIVVTIIIIIIIIIIIIITIIIITILVIVVIIVVIIVVVVAVVIII     A         A
+    36   36 A P  S    S+     0   0  141  176   57  KKSSSSSSSNTGESSSSSDSDDDSLKSSSDDDPSSSSSSSSSSKKKSSTDDGNDSSNNDNQDDDDDDSSS     A         A
+    37   37 A G  S    S-     0   0   41  177   19  GGGGGAGGGSGGGGGGGAGGGGGGGGGGGDDDDGGGGGGGGGGGGGGGTVGGGGAGKEGGEGGGGGGGGG     A         A
+    38   38 A A  S    S+     0   0   81  177   72  TTNNPSPPSGTSTTPPSSNTNNNTSSTTGgggvSSPSSSSPSTNTTSTGTSTSSSPgGKTNNNKSGKPPP     A         A
+    39   39 A T        -     0   0  127  153   60  KKKKTTTTKSTTTKTTTT T   TTTTT.ssssKKKKKKKTKTKKKKTNT.K..TTtNRKT......KKK     A         A
+    40   40 A a        -     0   0   44  173    0  CCCCCCCCCCCCCCCCCC C   CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC     A         A
+    41   41 A P    >   -     0   0   56  173   26  PPKKPPPPPPPPPPPPDP P   PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPKKKEEKPPP     A         A
+    42   42 A G  G >  S+     0   0   76  172   68  PPPPRSRRANNSPNRRSS P   PPNPPSPPPQSSSSSSSRSNSPPSNRSNNNNSRSPAPPPPPPPPSSS     A         A
+    43   43 A D  G 3  S+     0   0  116  162   45  GG  DNDDDGGGGGDDGD G   G GGGGGGGGDDDDDDDDDDGGGDDSDGGGGDDGDDGGPPPPPPDDD     A         A
+    44   44 A Y  G <  S+     0   0   68  161    6  YY  YYYYYYYYYYYYWY Y   Y FYYFFFFYYYYYYYYYYLFFFYLHWYYYYYYYYYYYYYYYYYYYY     A         A
+    45   45 A A    <         0   0   71  159   47  PP  PPPPPTSTTTPPNP T   T PTTPPPPNPPPPPPPPPRPPPPRPPTTPTPPPPPPPVVIDDIPPP     A         A
+    46   46 A N              0   0   76  155   54  KK  KKKKRHKHHHKKHK H   H  HHNNNNNKKKKKKKKKKQKKKKKKNHKNKKNE KKHHHHHHKKK     A         A
+## ALIGNMENTS  141 -  176
+ SeqNo  PDBNo AA STRUCTURE BP1 BP2  ACC NOCC  VAR  ....:....5....:....6....:....7....:....8....:....9....:....0....:....1 CHAIN AUTHCHAIN
+     1    1 A T              0   0   75    2    0                                                                             A         A
+     2    2 A T  E     -A   34   0A  21  166    9  SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS                                       A         A
+     3    3 A a  E     -A   33   0A   0  177    0  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC                                       A         A
+     4    4 A b        -     0   0    0  177    1  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC                                       A         A
+     5    5 A P  S    S+     0   0   54  177   56  KKKKKKKKKKKKKKKKPPKPKPPPPKPPPPKKKKKK                                       A         A
+     6    6 A S  S  > S-     0   0   49  177   62  DDDTDDDNDDDDDDDDSSNSDSSSSDTSSNDSSSNN                                       A         A
+     7    7 A I  H  > S+     0   0  120  177   21  TTTTTTTTTTTTTTTTTTTTTTTTTTSTTTTTTTTT                                       A         A
+     8    8 A V  H  > S+     0   0   98  177   66  LLLFLLLLLLLLLLLLTTSILTTTTLTTSTLLLPSS                                       A         A
+     9    9 A A  H  > S+     0   0    7  177   31  AAAAAAAAAAAAAAAAAASAAAAAAAAAAGAAAASS                                       A         A
+    10   10 A R  H  X S+     0   0   56  177    4  RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR                                       A         A
+    11   11 A S  H  X S+     0   0   64  176   22  NNNNNNNNNNNNNNNNNNLNNNNNNNNNNNNNNNFL                                       A         A
+    12   12 A N  H  X S+     0   0   82  177   61  CCCCCCCCCCCCCCCCVVCVCVVVVCIVIICCCCCC                                       A         A
+    13   13 A F  H  X S+     0   0    5  177    0  YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY                                       A         A
+    14   14 A N  H  X S+     0   0   87  177   17  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN                                       A         A
+    15   15 A V  H >< S+     0   0   93  177   67  TTTTTTTTTTTTTTTTSSASTSSSSTSVTTTIIIAA                                       A         A
+    16   16 A c  H 3<>S+     0   0   19  177    0  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCccccc                                       A         A
+    17   17 A R  H ><5S+     0   0   94  177    7  RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRrrrkk                                       A         A
+    18   18 A L  T <<5S+     0   0  143  177   25  FFFFFFFFFFFFFFFFFFKFFFFFFFVAFFFLLLLL                                       A         A
+    19   19 A P  T 3 5S-     0   0  109  176   66  AAAAAAAAAAAAAAAAAAAAAAAAAAVGTGARRGGG                                       A         A
+    20   20 A G  T < 5 +     0   0   52  177   25  GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGFFIGG                                       A         A
+    21   21 A T      < -     0   0   39  160   53  GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG.....                                       A         A
+    22   22 A P    >>  -     0   0   83  177   45  SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSPPHTT                                       A         A
+    23   23 A E  H 3> S+     0   0   69  177   33  RRRRRRRRRRRRRRRRRRQRRRRRRRRRRRRRRQRR                                       A         A
+    24   24 A A  H 3> S+     0   0   62  177   57  PPPPPPPPPPPPPPPPDDGDPDDNDPPPPEPPPLPL                                       A         A
+    25   25 A I  H <> S+     0   0   99  177   60  VVVVVVVVVVVVVVVVTTATVTTTTVTTFVVVVVEE                                       A         A
+    26   26 A c  H  X S+     0   0    0  177    0  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC                                       A         A
+    27   27 A A  H  X S+     0   0   12  177    5  AAAAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAA                                       A         A
+    28   28 A T  H  < S+     0   0  120  177   80  GGGGGGGGGGGGGGGGKKSKGKKKKGGSSSGKKKSS                                       A         A
+    29   29 A Y  H  < S+     0   0  173  177   81  AAAAAAAAAAAAAAAALLTLALLLLALVLLATTTRR                                       A         A
+    30   30 A T  H  < S-     0   0   22  177   37  CCCCCCCCCCCCCCCCSSCSCSSSSCSSSSCCCCCC                                       A         A
+    31   31 A G  S  < S+     0   0   37  177   36  RRRRRRRRRRRRRRRRGGGGRGGGGRGGGGRGGGGG                                       A         A
+    32   32 A b        -     0   0    5  177    0  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC                                       A         A
+    33   33 A I  E     -A    3   0A  51  177   30  KKKKKKKKKKKKKKKKKKIKKKKKKKKKKKKKKKII                                       A         A
+    34   34 A I  E     -A    2   0A  78  176   20  IIIIIIIIIIIIIIIIIIHIIIIIIIIIIIIFFIHH                                       A         A
+    35   35 A I        -     0   0   35  177   17  IIIIIIIIIIIIIIIIVVIVIVVVVIVVVIIIIIII                                       A         A
+    36   36 A P  S    S+     0   0  141  176   57  SSSSSSSSSSSSSSSSDDDDSDDDDS.DDSSNNNSS                                       A         A
+    37   37 A G  S    S-     0   0   41  177   19  GGGGGGGGGGGGGGGGGGGGGGGGGGDKGAGGGGGG                                       A         A
+    38   38 A A  S    S+     0   0   81  177   72  PPPPPPPPPPPPPPPPNNKKPNNNNPGTKSPTTTNN                                       A         A
+    39   39 A T        -     0   0  127  153   60  KKKKKKKKKKKKKKKK..R.K....KS..TKIIRRK                                       A         A
+    40   40 A a        -     0   0   44  173    0  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC                                       A         A
+    41   41 A P    >   -     0   0   56  173   26  PPPPPPPPPPPPPPPPKKPKPKKEKPPPPPPPPPPP                                       A         A
+    42   42 A G  G >  S+     0   0   76  172   68  SSSSSSSSSSSSSSSSPPAPSPPPPSNPN.SPPPAA                                       A         A
+    43   43 A D  G 3  S+     0   0  116  162   45  DDDDDDDDDDDDDDDDPPDPDPPPPDGGGSDSSGDD                                       A         A
+    44   44 A Y  G <  S+     0   0   68  161    6  YYYYYYYYYYYYYYYYYYYYYYYYYYYYFYYFFFYY                                       A         A
+    45   45 A A    <         0   0   71  159   47  PPPPPPPPPPPPPPPPVVPIPVVVVPPPTPPPPLPP                                       A         A
+    46   46 A N              0   0   76  155   54  KKKKKKKKKKKKKKKKHHKHKHHHHKNHHDKKKKSS                                       A         A
+## SEQUENCE PROFILE AND ENTROPY
+ SeqNo PDBNo   V   L   I   M   F   W   Y   G   A   P   S   T   C   H   R   K   Q   E   N   D  NOCC NDEL NINS ENTROPY RELENT WEIGHT CHAIN AUTHCHAIN
+    1    1 A   0   0   0   0   0   0   0   0   0   0   0 100   0   0   0   0   0   0   0   0     2    0    0   0.000      0  1.00      A         A
+    2    2 A   0   0   0   0   0   0   0   0   0   0  96   4   0   0   0   0   0   0   0   0   166    0    0   0.175      5  0.91      A         A
+    3    3 A   0   0   0   0   0   0   0   0   0   0   0   0 100   0   0   0   0   0   0   0   177    0    0   0.000      0  1.00      A         A
+    4    4 A   0   0   0   0   1   0   0   0   0   0   0   0  99   0   0   0   0   0   0   0   177    0    0   0.035      1  0.98      A         A
+    5    5 A   0   0   0   0   0   0   0   0   0  45   0   0   0   0   3  52   0   0   0   0   177    0    0   0.815     27  0.43      A         A
+    6    6 A   0   0   0   0   0   0   0   0   0   0  35  14   0   0   2   0   0   0  33  15   177    0    0   1.383     46  0.37      A         A
+    7    7 A   1   1   3   0   0   0   0   0   0   0   3  90   0   0   1   1   0   1   0   1   177    0    0   0.490     16  0.79      A         A
+    8    8 A   2  19   4   1   5   1   0   0   5   1   5  55   0   0   0   0   1   0   1   1   177    0    0   1.524     50  0.34      A         A
+    9    9 A   0   0   0   0   0   0   0  24  68   1   6   0   0   0   0   0   0   0   0   2   177    0    0   0.882     29  0.69      A         A
+   10   10 A   0   0   1   0   0   0   0   0   0   0   0   0   0   0  97   2   0   0   0   0   177    0    0   0.143      4  0.96      A         A
+   11   11 A   0   2   1   0   1   0   1   0   0   0   2   0   0   0   0   0   0   2  90   1   176    0    0   0.494     16  0.77      A         A
+   12   12 A  14   0  18   0   1   0   0   0   2   0   1   2  60   0   0   0   1   0   2   1   177    0    0   1.246     41  0.39      A         A
+   13   13 A   0   0   0   0   3   0  97   0   0   0   0   0   0   0   0   0   0   0   0   0   177    0    0   0.148      4  0.99      A         A
+   14   14 A   2   0   2   0   0   0   0   0   0   0   0   1   0   0   0   1   0   0  93   1   177    0    0   0.356     11  0.83      A         A
+   15   15 A  18   2   6   0   0   0   0   1  27   0  10  36   0   0   0   0   0   0   0   0   177    0    0   1.546     51  0.32      A         A
+   16   16 A   0   0   0   0   0   0   0   0   0   0   0   0 100   0   0   0   0   0   0   0   177    0    6   0.000      0  1.00      A         A
+   17   17 A   0   1   1   0   0   0   0   0   0   0   0   0   1   1  97   1   0   0   0   0   177    0    0   0.201      6  0.92      A         A
+   18   18 A   2  32   6   1  58   0   0   0   1   0   1   0   0   0   0   1   0   0   0   0   177    0    0   1.068     35  0.74      A         A
+   19   19 A   3   0   1   1   0   0   1   8  51  12   1  14   0   0   9   0   0   0   1   0   176    0    0   1.550     51  0.33      A         A
+   20   20 A   0   1   1   1   4   0   1  91   0   1   0   0   0   0   0   0   1   0   0   1   177   17    3   0.461     15  0.75      A         A
+   21   21 A   1   1   1   0   1   0   1  61  14   1   3  16   0   1   2   0   0   0   0   0   160    0    0   1.257     41  0.47      A         A
+   22   22 A   0   2   0   0   0   0   1   0   3  22  69   2   0   1   0   0   0   0   1   0   177    0    0   0.954     31  0.54      A         A
+   23   23 A   0   0   1   3   0   0   0   0   1   1   2   1   1   0  84   2   3   2   1   0   177    0    0   0.781     26  0.67      A         A
+   24   24 A   0   3   0   0   1   0   0   2   5  66   6   3   0   0   0   1   1   3   1   9   177    0    0   1.365     45  0.43      A         A
+   25   25 A  60   1   5   3   2   0   0   0   4   0   1  17   0   0   2   1   0   1   2   1   177    0    0   1.453     48  0.40      A         A
+   26   26 A   0   0   0   0   0   0   0   0   0   0   0   0 100   0   0   0   0   0   0   0   177    0    0   0.000      0  1.00      A         A
+   27   27 A   1   0   0   0   0   0   0   0  97   0   2   1   0   0   0   0   0   0   0   0   177    0    0   0.155      5  0.95      A         A
+   28   28 A   0   2   1   0   2   0   0  21   3   0  15  25   0   0   5  21   1   0   5   1   177    0    0   1.933     64  0.20      A         A
+   29   29 A   1  35   4   1   0   0   1   1  39   1   1  12   0   0   4   1   0   0   0   0   177    0    0   1.518     50  0.18      A         A
+   30   30 A   0   0   0   0   0   0   0   0   0   0  36   3  60   0   0   0   0   0   1   0   177    0    0   0.819     27  0.63      A         A
+   31   31 A   0   0   0   0   0   0   0  79   1   0   0   0   0   0  16   0   1   0   0   4   177    0    0   0.663     22  0.63      A         A
+   32   32 A   0   0   0   0   0   0   0   0   0   0   0   0 100   0   0   0   0   0   0   0   177    0    0   0.000      0  1.00      A         A
+   33   33 A   1   1   7   0   0   0   0   0   0   0   0   1   0   0   1  86   3   0   0   0   177    1    0   0.571     19  0.70      A         A
+   34   34 A   1   3  90   1   1   0   0   0   0   0   0   0   0   3   1   0   0   0   2   0   176    0    0   0.508     16  0.80      A         A
+   35   35 A  20   1  76   0   1   0   0   0   1   0   0   2   0   0   0   0   0   0   0   0   177    1    0   0.700     23  0.83      A         A
+   36   36 A   1   1   0   0   0   0   0   2   0   2  63   2   0   0   1   6   1   1   6  16   176    0    0   1.332     44  0.43      A         A
+   37   37 A   1   0   0   0   0   0   0  88   2   0   3   1   0   0   1   1   0   1   0   3   177    0    0   0.606     20  0.81      A         A
+   38   38 A   1   0   0   0   0   0   0  10   1  34  16  18   0   0   0   3   0   0  16   2   177   20    5   1.744     58  0.28      A         A
+   39   39 A   0   0   1   0   0   0   0   1   0   0   4  43   0   0   6  41   0   1   3   0   153    0    0   1.263     42  0.40      A         A
+   40   40 A   0   0   0   0   0   0   1   0   0   0   0   0  99   0   0   0   0   0   0   0   173    0    0   0.036      1  1.00      A         A
+   41   41 A   0   0   0   0   0   0   0   0   0  86   0   0   0   0   0  12   0   2   0   1   173    1    0   0.483     16  0.74      A         A
+   42   42 A   0   0   0   0   0   0   0   2   3  32  28   1   0   0  22   1   1   0  10   1   172    0    0   1.606     53  0.32      A         A
+   43   43 A   0   0   0   0   0   0   0  31   0   8   2   0   0   0   0   0   0   0   2  56   162    0    0   1.076     35  0.55      A         A
+   44   44 A   0   1   0   0   9   2  87   0   0   0   0   0   0   1   0   0   0   0   0   0   161    0    0   0.512     17  0.94      A         A
+   45   45 A   5   1   2   0   0   0   0   0   1  73   1  11   0   0   1   0   0   1   1   1   159    0    0   1.064     35  0.52      A         A
+   46   46 A   0   0   0   0   0   0   0   0   0   0   2   0   0  19   3  66   1   1   8   1   155    0    0   1.089     36  0.46      A         A
+## INSERTION LIST
+ AliNo  IPOS  JPOS   Len Sequence
+    12    21    39     1 gCr
+    13    21    45     1 pAp
+    14    21    21     1 gTi
+   100    39    86     1 gTs
+   101    39    63     1 gTs
+   102    39    91     1 gTs
+   103    39    63     1 vLs
+   127    39    64     1 gGt
+   130    17    41     1 cLr
+   172    17    41     1 cRr
+   173    17    41     1 cRr
+   174    17    41     1 cRr
+   175    17    45     1 cRk
+   176    17    45     1 cRk
+//
+
